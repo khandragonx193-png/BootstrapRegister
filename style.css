@@ -1,0 +1,52 @@
+
+/* Ảnh trong Carousel */
+.benefit-image {
+    height: 350px;
+    object-fit: cover;
+}
+
+/* Làm nổi bật nội dung trên ảnh */
+.carousel-caption {
+    left: 10%;
+    right: 10%;
+    bottom: 25px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Biểu tượng trên đầu form */
+.register-icon {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #e7f1ff;
+    color: #0d6efd;
+    font-size: 26px;
+}
+
+/* Hiệu ứng khi nhập liệu */
+.form-control:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+}
+
+/* Điều chỉnh trên điện thoại */
+@media (max-width: 767.98px) {
+    .benefit-image {
+        height: 300px;
+    }
+
+    .carousel-caption {
+        bottom: 18px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 1.25rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.85rem;
+    }
+}
